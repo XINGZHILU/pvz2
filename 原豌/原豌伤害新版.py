@@ -398,5 +398,6 @@ if __name__ == '__main__':
     qss = '* {font: ' + str(fontsize)+'px}\nQLabel {font: '+str(fontsize)+"px}\nQPushButton[name = 'copy'] {font: "+str(fontsize)+"px}"
     qss += '''QLabel[name='line'] {font: 1px}'''
     #demo.setStyleSheet(qss)
+    # set css for app
     demo.show()
     sys.exit(app.exec())
